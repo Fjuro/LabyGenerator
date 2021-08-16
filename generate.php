@@ -7,10 +7,10 @@ if( !empty( $_POST ) ){
         "server_name" => $_POST["server_name"],
         "nice_name" => $_POST["nice_name"],
         "direct_ip" => $_POST["direct_ip"],
+    );
     if (isset($_POST['server_wildcards']) && $_POST['server_wildcards'] !== '') {
         $arr['server_wildcards'] = explode(',', $_POST['server_wildcards']);
     }
-    );
     if (isset($_POST['web']) && $_POST['web'] !== '') {
         $arr['social']['web'] = $_POST['web'];
     }
