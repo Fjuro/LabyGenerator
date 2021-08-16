@@ -1,9 +1,34 @@
 <!doctype html>
 <html>
 <head>
-    <title>LabyMod server media generator</title>
+    <title>LabyMod Server Media Generator</title>
+    <meta name="title" content="LabyMod Server Media Generator">
+    <meta name="description" content="LabyMod server media manifest generator. Check github.com/labymod/server-media for more info.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fjuro.site.namedhosting.com/">
+    <meta property="og:title" content="LabyMod Server Media Generator">
+    <meta property="og:description" content="LabyMod server media manifest generator. Check github.com/labymod/server-media for more info.">
+    <meta property="og:image" content="https://labymod.net/page/tpl/assets/images/logo_main.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fjuro.site.namedhosting.com/">
+    <meta property="twitter:title" content="LabyMod Server Media Generator">
+    <meta property="twitter:description" content="LabyMod server media manifest generator. Check github.com/labymod/server-media for more info.">
+    <meta property="twitter:image" content="https://labymod.net/page/tpl/assets/images/logo_main.png">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/b528589131.js" crossorigin="anonymous"></script>
+    <style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+    </style>
 </head>
 <body>
 <div style="text-align: center; width: 30%; margin: auto;">
@@ -101,7 +126,7 @@
     </form>
 </div>
 <footer class="pt-5 my-5 text-muted border-top" style="margin: 30px">
-    &copy; <?php echo date("Y"); ?> Fjuro &middot; <a href="#credits" data-bs-toggle="modal">Credits</a>
+    &copy; <?php echo date("Y"); ?> Fjuro &middot; <a href="#credits" data-bs-toggle="modal">Credits</a><br>This site is not affiliated with LabyMod in any way.
 </footer>
 <!-- Modal -->
 <div class="modal fade" id="credits" tabindex="-1" aria-labelledby="creditsTitle" aria-hidden="true">
