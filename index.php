@@ -24,7 +24,7 @@
         <div class="mb-3">
             <label class="form-label" for="server_wildcards">Server wildcards: </label>
             <input class="form-control" type="text" name="server_wildcards" id="server_wildcards" placeholder="%.laby.net, %.labymod.net" aria-describedby="wildcards_help">
-            <div id="wildcards_help" class="form-text">Separate the wildcards with commas.</div>
+            <div id="wildcards_help" class="form-text">Separate the wildcards with commas, without spaces.</div>
         </div>
       <h4>Social</h4>
         <div class="mb-3">
