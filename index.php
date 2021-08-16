@@ -7,7 +7,8 @@
 </head>
 <body>
 <div style="text-align: center; width: 30%; margin: auto;">
-  <h1>Form</h1>
+  <h1>Server Media Generator</h1>
+  <p>LabyMod server media manifest generator. Don't forget to check the <a href="https://github.com/LabyMod/server-media/blob/master/docs/Manifest.md#available-keys" target="_blank">docs</a>.</p>
     <form name="form" method="post" enctype="multipart/form-data" action="generate.php" autocomplete="off">
         <div class="mb-3">
             <label class="form-label" for="server_name"><code>*</code>Server name: </label>
@@ -23,21 +24,21 @@
         </div>
         <div class="mb-3">
             <label class="form-label" for="server_wildcards">Server wildcards: </label>
-            <input class="form-control" type="text" name="server_wildcards" id="server_wildcards" placeholder="%.laby.net, %.labymod.net" aria-describedby="wildcards_help">
+            <input class="form-control" type="text" name="server_wildcards" id="server_wildcards" placeholder="%.laby.net,%.labymod.net" aria-describedby="wildcards_help">
             <div id="wildcards_help" class="form-text">Separate the wildcards with commas, without spaces.</div>
         </div>
       <h4>Social</h4>
         <div class="mb-3">
             <label class="form-label" for="web">Website: </label>
-            <input class="form-control" type="text" name="web" id="web" placeholder="https://labymod.net">
+            <input class="form-control" type="url" name="web" id="web" placeholder="https://labymod.net">
         </div>
         <div class="mb-3">
             <label class="form-label" for="web_shop">Web shop: </label>
-            <input class="form-control" type="text" name="web_shop" id="web_shop" placeholder="https://labymod.net/shop">
+            <input class="form-control" type="url" name="web_shop" id="web_shop" placeholder="https://labymod.net/shop">
         </div>
         <div class="mb-3">
             <label class="form-label" for="web_support">Web support: </label>
-            <input class="form-control" type="text" name="web_support" id="web_support" placeholder="https://labymod.net/support">
+            <input class="form-control" type="url" name="web_support" id="web_support" placeholder="https://labymod.net/support">
         </div>
         <div class="mb-3">
             <label class="form-label" for="twitter">Twitter: </label>
@@ -57,11 +58,11 @@
         </div>
         <div class="mb-3">
             <label class="form-label" for="discord">Discord: </label>
-            <input class="form-control" type="text" name="discord" id="discord" placeholder="https://discord.com/invite/labymod">
+            <input class="form-control" type="url" name="discord" id="discord" placeholder="https://discord.com/invite/labymod">
         </div>
         <div class="mb-3">
             <label class="form-label" for="youtube">YouTube: </label>
-            <input class="form-control" type="text" name="youtube" id="youtube" placeholder="https://www.youtube.com/channel/UCSamgE1KYvC7qZn56T0J2yg">
+            <input class="form-control" type="url" name="youtube" id="youtube" placeholder="https://www.youtube.com/channel/UCSamgE1KYvC7qZn56T0J2yg">
         </div>
         <div class="mb-3">
             <label class="form-label" for="teamspeak">TeamSpeak: </label>
@@ -70,7 +71,7 @@
       <h4>Discord</h4>
         <div class="mb-3">
             <label class="form-label" for="server_id">Server ID: </label>
-            <input class="form-control" type="text" name="server_id" id="server_id" placeholder="260471731809026048">
+            <input class="form-control" type="number" name="server_id" id="server_id" placeholder="260471731809026048">
         </div>
       <h4>Brand</h4>
         <div class="mb-3">
@@ -92,7 +93,7 @@
         </div>
         <div class="mb-3">
             <label class="form-label" for="user_stats">User stats: </label>
-            <input class="form-control" type="text" name="user_stats" id="user_stats" placeholder="https://laby.net/@{userName}">
+            <input class="form-control" type="url" name="user_stats" id="user_stats" placeholder="https://laby.net/@{userName}">
         </div>
         <p style="text-align: center;">
             <input class="btn btn-primary btn-lg" type="submit" name="submit" id="submit" value="Submit">
