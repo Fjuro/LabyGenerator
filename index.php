@@ -101,15 +101,15 @@
       <h4>Brand</h4>
         <div class="mb-3">
             <label class="form-label" for="primary">Primary: </label>
-            <input class="form-control" type="text" name="primary" id="primary" placeholder="#008FE8">
+            <input class="form-control" type="color" name="primary" id="primary" placeholder="#008FE8">
         </div>
         <div class="mb-3">
             <label class="form-label" for="background">Background: </label>
-            <input class="form-control" type="text" name="background" id="background" placeholder="#0A56A5">
+            <input class="form-control" type="color" name="background" id="background" placeholder="#0A56A5">
         </div>
         <div class="mb-3">
             <label class="form-label" for="text">Text: </label>
-            <input class="form-control" type="text" name="text" id="text" placeholder="#FFFFFF">
+            <input class="form-control" type="color" name="text" id="text" placeholder="#FFFFFF">
         </div>
       <h4>Other</h4>
         <div class="mb-3">
