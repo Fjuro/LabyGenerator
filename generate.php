@@ -11,6 +11,9 @@ if( !empty( $_POST ) ){
     if (isset($_POST['server_wildcards']) && $_POST['server_wildcards'] !== '') {
         $arr['server_wildcards'] = explode(',', $_POST['server_wildcards']);
     }
+    if (isset($_POST['supported_languages']) && $_POST['supported_languages'] !== '') {
+      $arr['supported_languages'] = explode(',', $_POST['supported_languages']);
+  }
     if (isset($_POST['web']) && $_POST['web'] !== '') {
         $arr['social']['web'] = $_POST['web'];
     }
@@ -41,9 +44,6 @@ if( !empty( $_POST ) ){
     if (isset($_POST['teamspeak']) && $_POST['teamspeak'] !== '') {
         $arr['social']['teamspeak'] = $_POST['teamspeak'];
     }
-    if (isset($_POST['server_id']) && $_POST['server_id'] !== '') {
-        $arr['discord']['server_id'] = $_POST['server_id'];
-    }
     if (isset($_POST['primary']) && $_POST['primary'] !== '') {
         $arr['brand']['primary'] = $_POST['primary'];
     }
@@ -52,6 +52,15 @@ if( !empty( $_POST ) ){
     }
     if (isset($_POST['text']) && $_POST['text'] !== '') {
         $arr['brand']['text'] = $_POST['text'];
+    }
+    if (isset($_POST['city']) && $_POST['city'] !== '') {
+        $arr['location']['city'] = $_POST['city'];
+    }
+    if (isset($_POST['country']) && $_POST['country'] !== '') {
+        $arr['location']['country'] = $_POST['country'];
+    }
+    if (isset($_POST['country_code']) && $_POST['country'] !== '') {
+        $arr['location']['country'] = $_POST['country'];
     }
     if (isset($_POST['yt_trailer']) && $_POST['yt_trailer'] !== '') {
         $arr['yt_trailer'] = $_POST['yt_trailer'];
