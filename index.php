@@ -320,7 +320,11 @@
     </tr>
   </tbody>
 </table>
-
+<div style="text-align: center; padding-top: 2%"><p style="color: grey;">You must compress your images (except <span class="ui middle label" style="padding: 0.5% 0.6%; margin: 0 0.2%;">@2x</span> versions) before submitting. You could use for this step an</p>
+<a href="https://tinypng.com/" target="_blank">
+<button class="middle ui warning button" style="width: 80%; margin-top: -1%;">Image compresser</button>
+</a>
+</div>
 </div>
 <!-- END OF RIGHT SIDE -->
 </div>
