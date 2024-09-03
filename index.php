@@ -337,7 +337,7 @@
       <div class="ui stackable inverted divided equal height stackable grid">
         <div class="seven wide column">
           <h4 class="ui inverted header">LabyGenerator</h4>
-          <p>&copy; <?php echo date("Y"); ?> <a href="https://fjuro.github.io">Fjuro</a> &middot; <a href="https://github.com/Fjuro/LabyGenerator/blob/main/CREDITS.md" target="_blank">Credits</a></p>
+          <p>&copy; <?php echo date("Y"); ?> <a href="https://fjuro.alius.cz">Fjuro</a> &middot; <a href="https://github.com/Fjuro/LabyGenerator/blob/main/CREDITS.md" target="_blank">Credits</a></p>
           <p>This site is not affiliated with LabyMod in any way.</p>
         </div>
         <div class="three wide column">
